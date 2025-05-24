@@ -1,5 +1,7 @@
 {
+	"type": "module",
 	"scripts": {
-		"test": "node --run test"
+		"test": "node --test **/*.test.ts",
+		"test:coverage": "node --test --experimental-test-coverage --test-coverage-include='src/**/*' --test-coverage-exclude='**/*.test.ts' './**/*.test.ts'"
 	}
 }
