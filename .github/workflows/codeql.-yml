@@ -11,6 +11,7 @@
 #
 name: "CodeQL"
 
+# This workflow is now disabled for now.
 on:
   push:
     branches: ["main"]
