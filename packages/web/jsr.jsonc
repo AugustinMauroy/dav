@@ -1,0 +1,18 @@
+{
+	"$schema": "https://jsr.io/schema/config-file.v1.json",
+	"name": "@dav/web",
+	"description": "",
+	"version": "0.0.0",
+	"license": "MIT",
+	"exports": "./src/mod.ts",
+	"publish": {
+		"include": [
+			// not sur if it's working
+			"../../LICENSE",
+			"README.md",
+			"src/**/*.ts",
+			"jsr.json"
+		],
+		"exclude": ["src/**/*.test.ts"]
+	}
+}
