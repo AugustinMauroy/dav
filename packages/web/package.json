@@ -3,5 +3,8 @@
 	"scripts": {
 		"test": "node --test **/*.test.ts",
 		"test:coverage": "node --test --experimental-test-coverage --test-coverage-include='src/**/*' --test-coverage-exclude='**/*.test.ts' './**/*.test.ts'"
+	},
+	"devDependencies": {
+		"jsdom": "^26.1.0"
 	}
 }
