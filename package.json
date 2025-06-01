@@ -11,7 +11,7 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
-		"@types/node": "^22.15.21"
+		"@types/node": "^22.15.29"
 	},
 	"workspaces": ["packages/*", "pacakges/web"]
 }
